@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color:#e2d40d;
+}
+div#divisaoprincipal {
+    background-color: rgba(22, 218, 169, 0.96);
+    text-align: center;    
+   position: absolute;
+   top: 115px;
+   left: 250px;
+   height: 400px;
+   width: 800px;
+   border-radius: 10px;
+   border: 0px solid #606060;
+}
+ p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#areamenu {
+    border:2px #606060 solid; 
+    margin-top: -8px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 1);
+    height: 100px;
+    margin-left: -10px;
+    margin-right: -8px;
+    background-color: aliceblue;
+}
