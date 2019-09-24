@@ -1,7 +1,10 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family:'FontLogo';
+    src: url();
+}
 body{
-    background-color:#e2d40d;
+    background-color:#f7f6f1;
 }
 div#divisaoprincipal {
     background-color: rgba(22, 218, 169, 0.96);
@@ -17,6 +20,15 @@ div#divisaoprincipal {
  p {
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    font-family:'Archivo Black', sans-serif;
+    font-size: 10pt;
+}
+h1 {
+    font-size: 30pt;
+    font-family: Montserrat, sans-serif;
+    color: rgb(25, 27, 25);
+}
 div#areamenu {
     border:2px #606060 solid; 
     margin-top: -8px;
@@ -25,4 +37,38 @@ div#areamenu {
     margin-left: -10px;
     margin-right: -8px;
     background-color: aliceblue;
+}
+
+div#login {
+    text-align: right;
+    position: absolute;
+    top: 10px;
+       left: 1100px;
+       height: -50px;
+       width: 30px;
+}
+nav#login ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+     }
+li {
+    display: inline-block;
+         background-color: #184d86;
+         padding: 10px;
+         margin-top: 10px;
+         transition: background-color 1s;
+         font-size: 20px;
+         text-shadow: #606060;
+         border-radius: 5px;
+        
+}
+li:hover {
+    background-color: #1774d8;
+     }
+img#fundoimg {
+    width: 99%;
+    margin: 5px;
 }
